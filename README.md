@@ -1,5 +1,5 @@
 # ORIGAMI
-`v1.0`
+`v1.0` Last update: 2019-11-8
 ## Introduction
 ORIGAMI (Overtransmission RIsk analysis with GAMete Inference) is a framework to simulate pseudo siblings from parental genotype.
 
