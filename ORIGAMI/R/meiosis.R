@@ -56,7 +56,7 @@ meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output
   #### 20 simulated children
   G = replicate(num_sibling,meiosis2(),simplify = FALSE)
   ########change here
-  fwrite(G,output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
+  data.table::fwrite(G,output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
   ################
 }
 
