@@ -1,4 +1,3 @@
-dir.create("/z/Comp/lu_group/Members/jiawen/ASD/ped")
 gen_ped = function(familyID,output_path,num_sibling){
 data1<-utils::read.table(familyID,header=F)
 famID<-unlist(data1)
