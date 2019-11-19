@@ -2,7 +2,7 @@ meiosis <- function(ind_data, sex,cohort,est_ori_file,est_new_file,map_file,num_
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
   ##########
-  data = tidyr::separate(data = data, col = V2, into = c("V2", "V3"), sep = "\\|")map_file
+  data = tidyr::separate(data = data, col = V2, into = c("V2", "V3"), sep = "\\|")
 
   map = data.table::fread(est_ori_file,header = T)
   map2 = data.table::fread(est_new_file,header = F)
