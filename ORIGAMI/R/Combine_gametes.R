@@ -1,4 +1,4 @@
-Combine_gametes<-function(f_id,m_id,chr,cohort,father_path,mother_path,ref_path,out_path){
+Combine_gametes<-function(cohort,father_path,mother_path,ref_path,out_path){
   #gemete files
   f_gamete = data.table::fread(father_path,header = F)
   m_gamete = data.table::fread(mother_path,header = F)
@@ -19,7 +19,6 @@ Combine_gametes<-function(f_id,m_id,chr,cohort,father_path,mother_path,ref_path,
     temp = paste(f_gamete[[i]],m_gamete[[i]])
 
     #### have to change substr number
-    famID<-strsplit(f_id,"_")[[1]][1]
     write(temp,file=out_path,sep = "\t",append=T,ncolumns = length(temp))
   }
 }
