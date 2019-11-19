@@ -1,7 +1,7 @@
 gen_ped = function(familyID,output_path,num_sibling){
 data1<-utils::read.table(familyID,header=F)
 famID<-unlist(data1)
-indiID<-rep(1:100,times=length(famID))
+indiID<-rep(1:num_sibling,times=length(famID))
 familyID<-rep(famID,each=as.numeric(num_sibling))
 individualID<-paste(familyID,indiID,sep="_")
 data_fin<-data.frame(familyID,individualID)
