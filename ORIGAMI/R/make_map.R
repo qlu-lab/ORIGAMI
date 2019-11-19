@@ -1,7 +1,7 @@
 ### map BP and rsid together
 make_map = function(cohort,chr,ref_file,rs_file,output_path){
-    data = fread(rs_file,header=T)
-    ref = fread(ref_file,header= F)
+    data = data.table::fread(rs_file,header=T)
+    ref = data.table::fread(ref_file,header= F)
 
     #select targeted col for MAP format
     data = data[,c("CHR","SNP","SNP","BP")]
@@ -12,5 +12,5 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
     #correct the order
     data = data[match(ref$V3,data$BP)]
 
-    fwrite(data,output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
+    data.table::fwrite(data,output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
 }
