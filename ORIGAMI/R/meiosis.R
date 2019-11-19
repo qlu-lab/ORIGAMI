@@ -1,4 +1,4 @@
-meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,map_file,num_sibling,output_path){
+meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path){
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
   ##########
