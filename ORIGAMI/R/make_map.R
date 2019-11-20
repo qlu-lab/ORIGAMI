@@ -5,6 +5,7 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
     ref = data.table::fread(ref_file,header= F)
 
     #select targeted col for MAP format
+    print(names(data0))
     data0 = data0[,c("CHR","SNP","SNP","BP")]
 
     #select chr
