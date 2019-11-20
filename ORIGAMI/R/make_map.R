@@ -8,7 +8,7 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
     data = data[,c("CHR","SNP","SNP","BP")]
 
     #select chr
-    data = data[which(data$CHR==as.numeric(chr)),]
+    data = data[which(data[,"CHR"]==as.numeric(chr)),]
 
     #correct the order
     data = data[match(ref$V3,data$BP),]
