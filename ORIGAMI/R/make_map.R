@@ -7,10 +7,10 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
     data = data[,c("CHR","SNP","SNP","BP")]
 
     #select chr
-    data = data[which(data$CHR==chr)]
+    data = data[which(data$CHR==chr),]
 
     #correct the order
-    data = data[match(ref$V3,data$BP)]
+    data = data[match(ref$V3,data$BP),]
 
     data.table::fwrite(data,output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
 }
