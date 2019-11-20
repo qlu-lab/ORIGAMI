@@ -6,6 +6,7 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
 
     #select targeted col for MAP format
     data0 =as.data.frame(data0)
+    ref = as.data.frame(ref)
     data0 = data0[,c("CHR","SNP","SNP","BP")]
 
     #select chr
