@@ -1,5 +1,5 @@
 ### map BP and rsid together
-make_map = function(cohort,chr,ref_file,rs_file,output_path){
+make_map = function(chr,ref_file,rs_file,output_path){
   options(stringsAsFactors = F)
     data0 = data.table::fread(rs_file,header=T)
     ref = data.table::fread(ref_file,header= F)
