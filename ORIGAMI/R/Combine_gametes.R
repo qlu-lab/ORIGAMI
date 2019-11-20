@@ -1,3 +1,14 @@
+#' Combine_gametes
+#'
+#' This function is for combine father gamete and mother gamete
+#' @param cohort Your cohort name.
+#' @param father_path The path of your father gamete file
+#' @param mother_path The path of your mother gamete file
+#' @param ref_path The path of your reference file which contains information about A1, A2, SNP and BP
+#' @param out_path The path of output file
+#' @keywords combine
+#'
+#' 
 Combine_gametes<-function(cohort,father_path,mother_path,ref_path,out_path){
   #gemete files
   f_gamete = data.table::fread(father_path,header = F)

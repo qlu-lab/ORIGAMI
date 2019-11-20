@@ -1,4 +1,14 @@
-### map BP and rsid together
+#' make_map
+#'
+#' This function is to generate map files to map BP and rsid together
+#' @param chr chromosome number
+#' @param ref_file Ref file of your vcf data
+#' @param rs_file Reference file contains SNP and BP information
+#' @param output_path output file path
+#' @keywords map
+#'
+#' 
+#' 
 make_map = function(chr,ref_file,rs_file,output_path){
   options(stringsAsFactors = F)
     data0 = data.table::fread(rs_file,header=T)

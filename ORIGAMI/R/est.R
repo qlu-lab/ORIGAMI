@@ -1,3 +1,14 @@
+#' est
+#'
+#' This function is for making est files
+#' @param cohort Your cohort name.
+#' @param estfile The path of your est file
+#' @param snp_path The path of your snplist file
+#' @param chr Chromosome number
+#' @param out_path The path of output file
+#' @keywords est
+#' 
+#' 
 est<-function(cohort,estfile,chr,snp_path,outpath){
   snps=data.table::fread(snp_path,header = F)
   map2=data.table::fread(estfile)

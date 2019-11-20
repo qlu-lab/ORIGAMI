@@ -1,3 +1,15 @@
+#' gen_ped
+#'
+#' This function is for generate ped files for pseudo babies in the format familyID familyID_i
+#' @param ind_data Your cohort name.
+#' @param cohort The number of pseudo sibling you gamete
+#' @param est_ori_file The path of output file
+#' @param est_new_file
+#' @param num_sibling
+#' @keywords gen
+#'
+#' 
+#' 
 meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path){
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
