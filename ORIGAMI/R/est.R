@@ -7,7 +7,7 @@
 #' @param chr Chromosome number
 #' @param out_path The path of output file
 #' @keywords est
-#' 
+#' @export
 #' 
 est<-function(cohort,estfile,chr,snp_path,outpath){
   snps=data.table::fread(snp_path,header = F)

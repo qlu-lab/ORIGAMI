@@ -6,6 +6,7 @@
 #' @param rs_file Reference file contains SNP and BP information
 #' @param output_path output file path
 #' @keywords map
+#' @export
 #'
 #' 
 #' 

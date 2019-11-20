@@ -7,6 +7,7 @@
 #' @param ref_path The path of your reference file which contains information about A1, A2, SNP and BP
 #' @param out_path The path of output file
 #' @keywords combine
+#' @export
 #'
 #' 
 Combine_gametes<-function(cohort,father_path,mother_path,ref_path,out_path){

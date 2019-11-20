@@ -1,9 +1,14 @@
 Package: ORIGAMI
 Title: As a part of ORIGAMI software to generate pseudo siblings.
 Version: 0.0.0.9000
-Authors@R: Person("Jiawen", "Chen", email = "jchen778@wisc.edu", role = c("aut", "cre"))
-Description: ORIGAMI is a software to generate pseduo siblings based on 
+Authors@R: person("Jiawen", "Chen", email = "jchen778@wisc.edu", role = c("aut", "cre"))
+Description: ORIGAMI is a software to generate pseduo siblings based on parental genotype data. This R package contains the essential R functions used by ORIGAMI software. The ORIGAMI software is in https://github.com/qlu-lab/ORIGAMI.
 Depends: R (>= 3.5.1)
-License: What license is it under?
+Imports:
+        data.table,
+        tidyr,
+        simcross (>= 0.2-30)
+License: CC BY-SA 4.0 + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
