@@ -20,7 +20,8 @@ Some tools are also needed.
 We extract parent genotype from vcf/bcf files. Please seperate your vcf/bcf file by chrormosome.
 
 2. snp list files
-We use the snp list file you provided to extract SNPs from vcf/bcf files. The columns are CHR<tab>BP. Please make sure the build of rsid and BP is same with your vcf/bcf files.
+We use the snp list file you provided to extract SNPs from vcf/bcf files. The columns are CHR\tBP. Please make sure the build of rsid and BP is same with your vcf/bcf files.
+  
 Example:
 ```
 1	766007
