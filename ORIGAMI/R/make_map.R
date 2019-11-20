@@ -12,6 +12,6 @@ make_map = function(cohort,chr,ref_file,rs_file,output_path){
     data0 = data0[which(data0[,"CHR"]==as.numeric(chr)),]
 
     #correct the order
-    data0 = data0[match(ref$V3,data$BP),]
+    data0 = data0[match(ref$V3,data0$BP),]
     data.table::fwrite(data0,file=output_path,sep = "\t",row.names=FALSE,col.names=FALSE,quote =F)
 }
