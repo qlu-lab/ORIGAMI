@@ -1,7 +1,7 @@
 # ORIGAMI
 `v1.0` Last update: 2019-11-8
 ## Introduction
-ORIGAMI (Overtransmission RIsk analysis with GAMete Inference) is a framework to simulate pseudo siblings from parental genotype.
+ORIGAMI is a framework to simulate pseudo siblings from parental genotype.
 
 ## Dependency
 This software is developed both in Linux environments. The statistical computing software [R](https://www.r-project.org/) (>=3.5.1) and the following R packages are required for association tests:
