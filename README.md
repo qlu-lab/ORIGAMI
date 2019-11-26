@@ -29,3 +29,6 @@ Example:
 1	901559
 1	914852
 ```
+
+3. sex-specific genetic map files
+https://github.com/cbherer/Bherer_etal_SexualDimorphismRecombination
