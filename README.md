@@ -16,10 +16,10 @@ Some tools are also needed.
 
 ## Getting started
 ### File preparation
-1. vcf/bcf files
+#### 1. vcf/bcf files
 We extract parent genotype from vcf/bcf files. Please seperate your vcf/bcf file by chrormosome.
 
-2. snp list files
+#### 2. snp list files
 We use the snp list file you provided to extract SNPs from vcf/bcf files. The columns are CHR\tBP. Please make sure the build of rsid and BP is same with your vcf/bcf files.
   
 Example:
@@ -30,5 +30,5 @@ Example:
 1	914852
 ```
 
-3. sex-specific genetic map files
+#### 3. sex-specific genetic map files
 https://github.com/cbherer/Bherer_etal_SexualDimorphismRecombination
