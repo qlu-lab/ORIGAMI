@@ -45,5 +45,32 @@ Also make sure you make the ORIGAMI.sh executable.
 chmod u+x ORIGAMI.sh
 ```
 
-#### 4. Usage of ORIGAMI
+### Usage of ORIGAMI
+After you finished file and software preparation, you can start to simulate pseudo siblings. There are three steps in the gameting. First, we need to extract the SNP you need from vcf/bcf files. Second, we extract parental genotype and simulate pseudo siblings. Finally, we combine the pseudo sibling genotype and convert them into ped and bfiles.
+
+#### ORIGAMI flags
+* s
+* l
+* p
+* m
+* f
+* n
+* c
+* b
+* e
+* t
+* h
+* i
+* r
+* k
+* o
+* d
+
+
+
+
+
+
+
+
 
