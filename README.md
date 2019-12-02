@@ -34,11 +34,16 @@ Example:
 https://github.com/cbherer/Bherer_etal_SexualDimorphismRecombination
 This genetic map is used in our paper.
 
-#### 3. Installing of the software.
-Please install all the software in the dependency sectiono. Besides those, you need to download the ORIGAMI.sh and install the ORIGAMI R package.
+#### 4. Installing of the software.
+Please install all the softwares in the dependency section. Besides those, you need to download the ORIGAMI.sh and install the ORIGAMI R package.
 ```
 library(devtools)
 install_github("qlu-lab/ORIGAMI/ORIGAMI")
 ```
+Also make sure you make the ORIGAMI.sh executable.
+```
+chmod u+x ORIGAMI.sh
+```
 
+#### 4. Usage of ORIGAMI
 
