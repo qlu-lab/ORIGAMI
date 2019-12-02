@@ -32,3 +32,13 @@ Example:
 
 #### 3. sex-specific genetic map files
 https://github.com/cbherer/Bherer_etal_SexualDimorphismRecombination
+This genetic map is used in our paper.
+
+#### 3. Installing of the software.
+Please install all the software in the dependency sectiono. Besides those, you need to download the ORIGAMI.sh and install the ORIGAMI R package.
+```
+library(devtools)
+install_github("qlu-lab/ORIGAMI/ORIGAMI")
+```
+
+
