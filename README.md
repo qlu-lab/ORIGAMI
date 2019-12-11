@@ -1,5 +1,5 @@
 # ORIGAMI
-`v1.0` Last update: 2019-11-8
+`v1.0` Last update: 2019-12-10
 ## Introduction
 ORIGAMI is a framework to simulate pseudo siblings from parental genotype.
 
