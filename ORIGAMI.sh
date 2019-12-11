@@ -196,8 +196,8 @@ done
 
 echo "Start merge bfiles..."
 mkdir -p ./${cohort}/bfile
-$plink_path/plink --bfile ./${cohort}/bfile_chr/${cohort}_1 --merge-list ./${cohort}/others/merge_list.txt  --make-bed --out ./$output
+$plink_path/plink --bfile ./${cohort}/bfile_chr/${cohort}_1 --merge-list ./${cohort}/others/merge_list.txt  --make-bed --out $output
 
-echo "Bfiles done. Path:./${cohort}/bfile/$cohort"
+echo "Bfiles done. Path: $output"
 
 fi
