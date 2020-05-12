@@ -1,4 +1,4 @@
-#' gen_ped
+#' meiosis
 #'
 #' This function is for generate ped files for pseudo babies in the format familyID familyID_i
 #' @param ind_data Your cohort name.
