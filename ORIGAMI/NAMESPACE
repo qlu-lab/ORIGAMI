@@ -2,5 +2,6 @@
 
 export(Combine_gametes)
 export(est)
+export(gen_ped)
 export(make_map)
 export(meiosis)
