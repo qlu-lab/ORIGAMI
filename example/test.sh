@@ -6,7 +6,7 @@
 -h <Your R library> \
 -e <male genetic map file> \ 
 -t <female genetic map file> \
--s extract -r <Your reference file>
+-s extract -r test_ref.txt
 
 # Do parallel on this step. parallel the fatherID and motherID
 ./ORIGAMI.sh -c ASD -s gamete \
@@ -43,6 +43,6 @@
 -b <Your bcf tool path> \
 -h <R library (optional)> \ 
 -i famList_test.txt \
--r <Your reference file> -n 5 \
+-r test_ref.txt -n 5 \
 -k <plink path> \
 -o test_bfile

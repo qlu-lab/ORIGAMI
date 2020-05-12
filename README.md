@@ -109,11 +109,13 @@ If you want to gamete pseudo siblings for many couples, please do parallel in th
 
 
 ## Examples
-A brief example is in example/test.sh. Since the data is protected, if you are one of our group members, please try it out. Otherwise, please change it to your own data and path.
+A brief example is in example/test.sh. Please download the whole example folder and fill the bcftools,R,plink path.
 
 ## Authors
 Jiawen Chen implemented the software.
+
 Jiawen Chen and Jing You finished the core code.
+
 Qiongshi Lu came up with the idea.
 
 ## Citation
