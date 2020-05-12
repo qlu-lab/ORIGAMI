@@ -21,4 +21,4 @@ meiosis(ind_data, cohort, est_ori_file, est_new_file, num_sibling,
 \description{
 This function is for generate ped files for pseudo babies in the format familyID familyID_i
 }
-\keyword{gen}
+\keyword{mei}

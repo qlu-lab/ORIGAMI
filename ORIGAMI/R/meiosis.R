@@ -6,7 +6,7 @@
 #' @param est_ori_file The path of original est file
 #' @param est_new_file The path of processed est file
 #' @param num_sibling Number of sibling you gamete
-#' @keywords gen
+#' @keywords mei
 #' @export
 #'
 #' 
