@@ -5,7 +5,7 @@
 #' @param num_sibling The number of pseudo sibling you gamete
 #' @param out_path The path of output file
 #' @keywords gen
-#'
+#' @export
 #' 
 gen_ped = function(familyID,output_path,num_sibling){
 data1<-utils::read.table(familyID,header=F)
