@@ -138,8 +138,8 @@ mkdir -p ./${cohort}/gamete/mother
 for i in {1..22};do
 est_male1=$(echo $est_male | sed "s/\#/$i/")
 est_female1=$(echo $est_female | sed "s/\#/$i/")
-Rscript -e "library(ORIGAMI);meiosis(ind_data='./${cohort}/father_bcf/${fatherID}_${i}.txt',cohort = '$cohort',est_ori_file='$est_male1',est_new_file='./${cohort}/est/male_chr$i.txt',num_sibling=$num_sibling,output_path='./${cohort}/gamete/father/${fatherID}_gamete_${i}.txt')"
-Rscript -e "library(ORIGAMI);meiosis(ind_data='./${cohort}/mother_bcf/${motherID}_${i}.txt',cohort = '$cohort',est_ori_file='$est_female1',est_new_file='./${cohort}/est/female_chr$i.txt',num_sibling=$num_sibling,output_path='./${cohort}/gamete/mother/${motherID}_gamete_${i}.txt')"
+Rscript -e "library(ORIGAMI);meiosis(ind_data='./${cohort}/father_bcf/${fatherID}_${i}.txt',cohort = '$cohort',est_ori_file='$est_male1',est_new_file='./${cohort}/est/male_chr$i.txt',num_sibling=$num_sibling,output_path='./${cohort}/gamete/father/${fatherID}_gamete_${i}.txt',interference_number=3)"
+Rscript -e "library(ORIGAMI);meiosis(ind_data='./${cohort}/mother_bcf/${motherID}_${i}.txt',cohort = '$cohort',est_ori_file='$est_female1',est_new_file='./${cohort}/est/female_chr$i.txt',num_sibling=$num_sibling,output_path='./${cohort}/gamete/mother/${motherID}_gamete_${i}.txt',interference_number=3)"
 echo -e "gamete chr $i finished\r"
 done
 echo -e "gamete finished\r"

@@ -5,7 +5,7 @@
 \title{meiosis}
 \usage{
 meiosis(ind_data, cohort, est_ori_file, est_new_file, num_sibling,
-  output_path)
+  output_path, interference_number)
 }
 \arguments{
 \item{ind_data}{Your cohort name.}

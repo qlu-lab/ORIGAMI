@@ -11,7 +11,8 @@
 #'
 #' 
 #' 
-meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path){
+meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path,
+                    interference_number){
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
   ##########
@@ -24,7 +25,7 @@ meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output
 
 
     #simulate crossover locations based on all snps
-    pos <- simcross::sim_crossovers(map$cM[nrow(map)],m=3)
+    pos <- simcross::sim_crossovers(map$cM[nrow(map)],m=interference_number)
 
     #change to physcial distance
     if(length(pos) != 0){
