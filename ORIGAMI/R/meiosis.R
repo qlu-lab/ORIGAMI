@@ -12,7 +12,7 @@
 #' 
 #' 
 meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path,
-                    interference_number){
+                    interference_number=3){
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
   ##########
