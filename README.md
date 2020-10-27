@@ -1,5 +1,5 @@
 # ORIGAMI
-`v1.0` Last update: 2019-12-10
+`v1.0` Last update: 2020-10-27
 ## Introduction
 ORIGAMI is a framework to simulate pseudo siblings from parental genotype.
 
@@ -111,15 +111,8 @@ If you want to gamete pseudo siblings for many couples, please do parallel in th
 ## Examples
 A brief example is in example/test.sh. Please download the whole example folder and fill the bcftools,R,plink path.
 
-## Authors
-Jiawen Chen implemented the software.
-
-Jiawen Chen and Jing You finished the core code.
-
-Qiongshi Lu came up with the idea.
-
 ## Citation
-Manuscript in preparation. Please contact jchen778@wisc.edu for appoximate submit time.
+Please cite https://www.biorxiv.org/content/10.1101/2020.10.26.355602v1?rss=1 .
 
 
 
