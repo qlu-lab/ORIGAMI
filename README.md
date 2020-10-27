@@ -112,7 +112,7 @@ If you want to gamete pseudo siblings for many couples, please do parallel in th
 A brief example is in example/test.sh. Please download the whole example folder and fill the bcftools,R,plink path.
 
 ## Citation
-Please cite https://www.biorxiv.org/content/10.1101/2020.10.26.355602v1?rss=1 .
+Chen J., You J., Zhao Z., Ni Z, Huang K., Wu Y., Fletcher J., Lu Q. (2020). Gamete simulation improves polygenic transmission disequilibrium analysis.[https://www.biorxiv.org/content/10.1101/2020.10.26.355602v1?rss=1] bioRxiv doi:10.1101/2020.10.26.355602
 
 
 
