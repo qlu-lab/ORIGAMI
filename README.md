@@ -6,7 +6,7 @@ ORIGAMI is a computational framework to simulate offspring genotypes using paren
 <div align=center><img width="450" height="450" src="https://github.com/qlu-lab/ORIGAMI/blob/master/Figure/Figure1.png"/></div>
 
 ## Dependency
-This software is developed using linux and R. The statistical computing software [R](https://www.r-project.org/) (>=3.5.1) and the following R packages are required for association tests:
+This software is developed using linux and R. The statistical computing software [R](https://www.r-project.org/) (>=3.5.1) and the following R packages are required:
 * [data.table](https://cran.r-project.org/web/packages/data.table/index.html) (>=1.11.8)
 * [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) (>=0.8.3)
 * [tidyverse](https://cran.r-project.org/web/packages/tidyverse/index.html) (>=1.2.1)
