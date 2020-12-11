@@ -1,7 +1,7 @@
 # ORIGAMI
 `v1.0` Last update: 2020-10-27
 ## Introduction
-ORIGAMI is a computational framework to simulate offspring genotypes using parental genetic data which uses state-of-the-art, sex-specific genetic maps to simulate recombination events in phased parental genomes. ORIGAMI takes parental VCF (or BCF) files as input and simulates offspring genotypes for the whole genome or a pre-specified list of SNPs. The output is PLINK file including simulated genotypes which are readily analyzable in various downstream applications.
+ORIGAMI is a computational framework to simulate offspring genotypes using parental genetic data which uses state-of-the-art, sex-specific genetic maps to simulate recombination events in phased parental genomes. ORIGAMI takes phased parental VCF (or BCF) files as input and simulates offspring genotypes for the whole genome or a pre-specified list of SNPs. The output is PLINK file including simulated genotypes which are readily analyzable in various downstream applications.
 
 <div align=center><img width="450" height="450" src="https://github.com/qlu-lab/ORIGAMI/blob/master/Figure/Figure1.png"/></div>
 
