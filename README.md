@@ -19,7 +19,7 @@ Some tools are also needed.
 ## Getting started
 ### File preparation
 #### 1. vcf/bcf files
-We extract parent genotypes from vcf/bcf files. Please partition your vcf/bcf file by chromosome.
+We extract parent genotypes from phased vcf/bcf files. Please partition your vcf/bcf file by chromosome.
 
 #### 2. snp list files
 We use the snp list file you provided to extract SNPs from vcf/bcf files. The columns are CHR\tBP. Please make sure the build of rsid and BP is same with your vcf/bcf files.
