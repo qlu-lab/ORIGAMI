@@ -34,7 +34,7 @@ Example:
 
 #### 3. sex-specific genetic map files
 https://github.com/cbherer/Bherer_etal_SexualDimorphismRecombination
-This genetic map was used in our paper.
+This genetic map(coordinates are in human genome build 37) was used in our paper.
 
 #### 4. Reference map file.
 This file should be a file with header containing SNP, CHR, BP information used to map the BP to rsid. The header must be "SNP", "CHR", "BP". GWAS summary statistics file may be a good option.
