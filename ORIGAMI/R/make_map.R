@@ -23,6 +23,7 @@ make_map = function(chr,ref_file,rs_file,output_path){
     #select chr
     data0 = data0[which(data0[,c("CHR")]==as.numeric(chr)|
                         data0[,c("CHR")]==paste0("chr",as.numeric(chr))),]
+    data0[,c("CHR")]=as.numeric(chr)
 
     #correct the order
     data0 = data0[match(ref$V3,data0$BP),]
