@@ -13,7 +13,7 @@ est<-function(cohort,estfile,chr,snp_path,outpath){
   snps=data.table::fread(snp_path,header = F)
   map2=data.table::fread(estfile)
   snps=data.table::setorder(snps,"V1")
-  if(length(unlist(strsplit(snps$V1[1],"chr")))==2){
+  if(length(unlist(strsplit(as.character(snps$V1[1]),"chr")))==2){
     map2_po = map2$pos[which(map2$pos>=min(snps$V2[which(snps$V1==paste0("chr",chr))]) & map2$pos<=max(snps$V2[which(snps$V1==paste0("chr",chr))]))]
     map2_cm = map2$cM[which(map2$pos>=min(snps$V2[which(snps$V1==paste0("chr",chr))]) & map2$pos<=max(snps$V2[which(snps$V1==paste0("chr",chr))]))]
     chr_li = rep(paste0("chr",chr),length(map2_po))
