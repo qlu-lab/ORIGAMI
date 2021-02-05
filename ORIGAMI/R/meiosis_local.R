@@ -1,4 +1,4 @@
-#' meiosis
+#' meiosis_local
 #'
 #' This function is for generate ped files for pseudo babies in the format familyID familyID_i
 #' @param ind_data Your cohort name.
@@ -6,12 +6,12 @@
 #' @param est_ori_file The path of original est file
 #' @param est_new_file The path of processed est file
 #' @param num_sibling Number of sibling you gamete
-#' @keywords mei
+#' @keywords local
 #' @export
 #'
 #' 
 #' 
-meiosis <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path,
+meiosis_local <- function(ind_data,cohort,est_ori_file,est_new_file,num_sibling,output_path,
                     interference_number=3){
   ########change here
   data = data.table::fread(ind_data,sep = "\t")
